@@ -1,0 +1,297 @@
+/* ########## FONT ########## */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Px Grotesk Screen';
+  src: url('../font/Px-Grotesk-Screen.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Px Grotesk Regular';
+  src: url('../font/Px-Grotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Px Grotesk Light';
+  src: url('../font/Px-Grotesk-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Px Grotesk Bold';
+  src: url('../font/Px-Grotesk-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+strong {
+  font-family: 'Px Grotesk Bold';
+}
+
+/* ########## DOM ########## */
+html {
+  --color-main: #9437FF;
+  --color-text-primary: white;
+  --color-text-secondary: #FF0009;
+  --font-light: 300;
+  --font-reg: 400;
+  --font-med: 500;
+  --font-bold: 600;
+  --font-xbold: 700;
+  --font-xxbold: 800;
+  --fontitalic: italic;
+  --fontsize-title: 18px;
+}
+
+body {}
+
+footer {}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Px Grotesk Light';
+  font-size: 1em;
+  color: #093AD6;
+}
+
+ul {
+  font-family: 'Px Grotesk Light';
+  padding-left: -0px;
+   !important font-size: 1em;
+  color: #093AD6;
+  margin-top: -20px;
+   !important
+}
+
+h1 {
+  font-family: 'Px Grotesk Screen';
+  font-size: 2em;
+  color: #093AD6;
+}
+
+h2 {
+  font-family: 'Px Grotesk Screen';
+  font-size: 1.5em;
+  color: #093AD6;
+}
+
+h3 {
+  font-family: 'Px Grotesk Bold';
+  font-size: 1em;
+  color: #093AD6;
+}
+
+.pulsating-circle-1 {
+  cursor: pointer;
+  position: fixed;
+  left: 15%;
+  top: 75%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.pulsating-circle-2 {
+  cursor: pointer;
+  position: fixed;
+  left: 38%;
+  top: 65%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.pulsating-circle-3 {
+  cursor: pointer;
+  position: fixed;
+  left: 60%;
+  top: 70%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.pulsating-circle-4 {
+  cursor: pointer;
+  position: fixed;
+  left: 85%;
+  top: 70%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.websiteMargin {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.provocation {
+  text-align: center;
+}
+.about-top{
+  margin-top: 11px;
+}
+.nav-logo {
+  height: 70%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  /* Set the fixed height of the footer here */
+  line-height: 65px;
+  /* Vertically center the text there */
+  color: white;
+  background-color: #093AD6;
+  text-align: center;
+  font-family: 'Px Grotesk Screen';
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* Set the fixed height of the footer here */
+  line-height: 50px;
+  /* Vertically center the text there */
+  color: white;
+  background-color: #093AD6;
+  text-align: center;
+  font-family: 'Px Grotesk Screen';
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.footer_about {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* Set the fixed height of the footer here */
+  line-height: 50px;
+  /* Vertically center the text there */
+  color: white;
+  background-color: #093AD6;
+  text-align: center;
+  font-family: 'Px Grotesk Screen';
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.uk-link, a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: #093AD6;
+  color: white;
+}
+
+.generic_button {
+  color: #093AD6;
+  background-color: white;
+  text-align: center;
+  font-family: 'Px Grotesk Screen';
+  font-size: 1.5em;
+  text-decoration: none;
+  border-color: #093AD6;
+  border-style: 2px;
+}
+
+
+/* iphone */
+@media only screen and (max-width: 414px) {
+  .websiteMargin {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .pulsating-circle-1 {
+    display: none;
+  }
+
+  .pulsating-circle-4 {
+    display: none;
+  }
+
+  .pulsating-circle-2 {
+    left: 25%;
+  }
+
+  .pulsating-circle-3 {
+    left: 70%;
+  }
+
+  .uk-cover {
+    max-width: 1040;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  .collected-info-desktop{
+    display: none;
+  }
+
+}
+  @media only screen and (min-width: 414px) and (max-width: 800px) {
+    .websiteMargin {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .pulsating-circle-1 {
+      display: none;
+    }
+
+    .pulsating-circle-2 {
+      left: 25%;
+    }
+
+    .pulsating-circle-3 {
+      left: 70%;
+    }
+
+    .pulsating-circle-4 {
+      display: none;
+    }
+    .collected-info-desktop{
+      display: none;
+    }
+  }
+  /* middle-screen */
+  @media only screen and (min-width: 800px) and (max-width: 1000px){
+    .websiteMargin {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    .pulsating-circle-1 {
+      display: none;
+    }
+
+    .pulsating-circle-4 {
+      display: none;
+    }
+    .collected-info-desktop{
+      display: none;
+    }
+  }
+  /* middle-screen */
+  @media only screen and (min-width: 1000px) {
+    .collected-info-mobile{
+      display: none;
+    }
+  }
