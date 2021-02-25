@@ -25,7 +25,7 @@ body {
 
 #set .title, #set .subtitle,
 #tips .title, #tips .subtitle,
-#involve .title, #involve .subtitle,
+#get_involved .title, #get_involved .subtitle,
 .final-download .subtitle {
   color: #5D22D2;
 }
@@ -95,8 +95,8 @@ body {
   color: #FDA028;
 }
 
-.custom-toggler.navbar-toggler {
-  border-color: white;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .logo-contain {
@@ -114,29 +114,122 @@ body {
   width: 90%;
 }
 
-.intro-desription {
+.intro-description {
   margin-top: 5vh;
   font-size: 140%;
   font-weight: 400;
 }
 
-.buttons-contain {
+.download-buttons-contain {
   position: absolute;
   bottom: 15%;
   left: 50%;
-  transform: translateX(-49%);
+  transform: translateX(-50%);
 }
 
 .sticker {
   border-radius: 20px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
-  height: auto;
-  margin: 10px;
 }
 
-.stickers-contain {
-  min-width: 30px;
+.wraper {
+  margin-bottom: 5vh;
 }
+
+.sticker {
+  width: 100%;
+}
+
+.sticker:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+#s1 {
+  background-image: url(../img/sticker1.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s2 {
+  background-image: url(../img/sticker2.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s3 {
+  background-image: url(../img/sticker3.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s4 {
+  background-image: url(../img/sticker4.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s5 {
+  background-image: url(../img/sticker5.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s6 {
+  background-image: url(../img/sticker6.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s7 {
+  background-image: url(../img/sticker7.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s8 {
+  background-image: url(../img/sticker8.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#s9 {
+  background-image: url(../img/sticker9.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s10 {
+  background-image: url(../img/sticker10.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s11 {
+  background-image: url(../img/sticker11.png);
+  background-position: center center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+#s12 {
+  background-image: url(../img/sticker12.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 
 section {
   padding-top: 10vh;
@@ -160,8 +253,33 @@ section {
   background-color: #FFE477;
 }
 
-#involve {
+#get_involved {
   background-color: #8FF4EB;
+}
+
+.involved-text {
+  text-align: left;
+}
+
+.involved-text-2 {
+  text-align: center;
+  display: none;
+}
+
+.invisible_col_2 {
+  display: none;
+}
+
+.help {
+  color: #5D22D2;
+}
+
+.gif {
+  max-width: 90% !important;
+}
+
+.contact_btn {
+  margin-top: 8vh !important;
 }
 
 .final-download {
@@ -203,7 +321,25 @@ section {
     display: none;
   }
 
+  .invisible_col_2 {
+    display: block;
+    height: 5vh;
+  }
+
   .second_tip {
     margin-top: 8vh !important;
   }
+
+  .involved-text {
+    display: none;
+  }
+
+  .involved-text-2 {
+    display: block;
+  }
+
+  .download-buttons-contain {
+    margin-bottom: 1vh;
+  }
+
 }
