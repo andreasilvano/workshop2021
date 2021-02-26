@@ -78,11 +78,15 @@ body {
 .embed-container object,
 .embed-container embed {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
-  height: 80%;
+  min-height: 80%;
+}
+
+#intro .subtitle {
+  margin-bottom: 3vh !important;
 }
 
 #set .title, #set .subtitle,
@@ -97,6 +101,7 @@ body {
   margin-bottom: 5vh;
   padding-left: 10%;
   padding-right: 10%;
+  color: #5D2ECF;
 }
 
 .tip-image {

@@ -20,4 +20,10 @@ $(document).ready(function(){
     $("#get_involved").css("min-height", window.innerHeight);
     $("#download").css("min-height", window.innerHeight/2);
   });
+
+  if($(window).width() < 1000) {
+    $("#intro").css("min-height", 0);  
+    $("#intro").css("height", "auto");
+  }
+
 })
