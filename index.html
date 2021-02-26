@@ -14,47 +14,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <title>It's ok to ask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>IT'S OK TO ASK</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="#"><img class="navbar-logo" alt="it's ok to ask" src="assets/img/navbar_logo.svg"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#intro">Intro<span class="sr-only"></span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#set">Sticker Set</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#reactions">Reactions</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#project">Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#tips">Tips</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#get_involved">Get Involved</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="navbar-logo" alt="it's ok to ask" src="assets/img/navbar_logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#intro">Intro<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#set">Sticker Set</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reactions">Reactions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tips">Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#get_involved">Get Involved</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <section id="landing">
+      <div class="il-sticker" id="illustration1"></div>
+      <div class="il-sticker" id="illustration2"></div>
+      <div class="il-sticker" id="illustration3"></div>
       <div class="logo-contain col-lg-4 col-md-8 col-sm-10 col-10">
         <img class="logo" alt="It's OK to ask" src="assets/img/logo2.svg">
         <div class="intro-description"><p>A conversation-starter, action-taking sticker pack about gathering with people during the pandemic.</p></div>
       </div>
       <div class="col-12 justify-content-center download-buttons-contain">
-        <div class="col-lg-3 col-md-4 col-sm-8 col-8 btn download"><img src="assets/img/tg-button.svg" alt="logo"></div>
-        <div class="col-lg-3 col-md-4 col-sm-8 col-8 btn download"><img src="assets/img/wa-button.svg" alt="logo"></div>
+        <a href="https://t.me/addstickers/itsoktoask" target="_blank"><div class="col-lg-3 col-md-4 col-sm-8 col-8 btn download"><img src="assets/img/tg-button.svg" alt="logo"></div></a>
+        <a href="http://sticker.ly/s/YI6BQ6" target="_blank"><div class="col-lg-3 col-md-4 col-sm-8 col-8 btn download"><img src="assets/img/wa-button.svg" alt="logo"></div></a>
       </div>
     </section>
     <section id="intro">
@@ -84,25 +88,29 @@
     <section id="reactions">
       <h1 class="title">Reactions</h1>
       <h3 class="subtitle">People’s reaction when receiving the sticker set</h3>
-      <div class="bubble-contain col-12 d-flex row justify-content-center">
+      <div class="bubble-contain row justify-content-center">
         <div class="row">
           <div class="bubble col-lg-5 col-md-10 col-sm-12 bubble-left">
-            <p><b style="color: #5D22D2">Enrico</b><br>I didn't question the sticker, it seemed like a natural way to communicate. It was definitively a lighter way to express your concerns than if you had said it in words. It was fun and cute!</p>
+            <p style="color: #5D22D2" class="name">Enrico</p>
+            <p class="my-auto">I didn't question the sticker, it seemed like a natural way to communicate. It was definitively a lighter way to express your concerns than if you had said it in words. It was fun and cute!</p>
           </div>
         </div>
         <div class="row upper-margin">
           <div class="bubble col-lg-4 col-md-10 col-sm-12 bubble-right ms-auto">
-            <p><b style="color: #FDA028">Simone</b><br>I have even denied invitations because I didn't want to deal with these conversations</p>
+            <p style="color: #FDA028"  class="name">Simone</p>
+            <p class="my-auto">I have even denied invitations because I didn't want to deal with these conversations</p>
           </div>
         </div>
         <div class="row upper-margin">
           <div class="bubble col-lg-3 col-md-10 col-sm-12 bubble-left">
-            <p><b style="color: #8FF4EB">Giulia</b><br>When I got the stickers I was bummed out 'cause I knew you weren't coming</p>
+            <p style="color: #8FF4EB"  class="name">Giulia</p>
+            <p class="my-auto">When I got the stickers I was bummed out 'cause I knew you weren't coming</p>
           </div>
         </div>
         <div class="row upper-margin">
           <div class="bubble col-lg-4 col-md-10 col-sm-12 bubble-right ms-auto">
-            <p><b style="color: #FD3B83">Peter</b><br>I think it makes it easier to question your friends</p>
+            <p style="color: #FD3B83"  class="name">Peter</p>
+            <p class="my-auto">I think it makes it easier to question your friends</p>
           </div>
         </div>
       </div>
@@ -110,6 +118,75 @@
     <section id="project">
       <h1 class="title">Project</h1>
       <h3 class="subtitle">What’s the idea behind it?</h3>
+      <div class="row justify-content-center project-1">
+        <div class="col-lg-6 project-text">
+          <p><b style="color: #FD3B83">Have you ever being worried about...</b></p>
+          <p>...being labeled as paranoid about covid?<br>
+            ...what people will think about you?<br>
+            ...offending someone?<br>
+            ...feeling out of place?</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="bubble bubble-left smaller-bubble">
+            <p class="my-auto"><b style="color: #5D22D2">Michi</b><br>Hey Alice, I'm having a few friends over for dinner tonight. would you like to come? lmk <3</p>
+          </div>
+          <div class="bubble bubble-right smaller-bubble ms-auto">
+            <p class="my-auto">Hey Michi. Cool! I don’t whant to be rude :)) may I ask how many people will be there?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center project-text-2">
+        <div class="col-lg-4 invisible_col">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assets/img/mockup1.png" class="d-block w-100" alt="conversation 1">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="assets/img/mockup2.png" class="d-block w-100" alt="conversation 2">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="assets/img/mockup3.png" class="d-block w-100" alt="conversation 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-7 project-text my-auto">
+          <p><b style="color: #FD3B83">We believe there’s an easier way to start a conversation!</b></p>
+          <p>By translating visually some of the concepts that could come up in the conversation it becomes easier to express them and talk about covid regulations in gatherings. It might also help people remember and keep in mind recommended behaviors when meeting others.</p>
+        </div>
+        <div class="col-lg-4 invisible_col_3">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="100000">
+                <img src="assets/img/mockup1.png" class="d-block w-100" alt="conversation 1">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="assets/img/mockup2.png" class="d-block w-100" alt="conversation 2">
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="assets/img/mockup3.png" class="d-block w-100" alt="conversation 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="tips">
       <h1 class="title">Tips</h1>
@@ -151,8 +228,8 @@
       <div class="final-download">
         <h3 class="subtitle">Start the conversation with a sticker!</h3>
         <div class="col-12 justify-content-center">
-          <div class="col-lg-3 col-md-4 col-sm-10 col-10 btn download"><img src="assets/img/tg-button.svg" alt="logo"></div>
-          <div class="col-lg-3 col-md-4 col-sm-10 col-10 btn download"><img src="assets/img/wa-button.svg" alt="logo"></div>
+          <a href="https://t.me/addstickers/itsoktoask" target="_blank"><div class="col-lg-3 col-md-4 col-sm-10 col-10 btn download"><img src="assets/img/tg-button.svg" alt="logo"></div></a>
+          <a href="http://sticker.ly/s/YI6BQ6" target="_blank"><div class="col-lg-3 col-md-4 col-sm-10 col-10 btn download"><img src="assets/img/wa-button.svg" alt="logo"></div></a>
         </div>
       </div>
     </section>
@@ -169,8 +246,7 @@
       src="https://code.jquery.com/jquery-3.5.1.min.js"
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

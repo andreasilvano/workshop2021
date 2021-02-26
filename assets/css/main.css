@@ -19,6 +19,48 @@ body {
   margin-bottom: 10vh;
 }
 
+.il-sticker {
+  position: absolute;
+  width: 10vw;
+
+}
+
+.il-sticker:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+#illustration1 {
+  background-image: url("../img/sticker11.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 5%;
+  transform: rotate(-20deg);
+}
+
+#illustration2 {
+  background-image: url("../img/sticker5.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 15%;
+  right: 5%;
+  transform: rotate(20deg);
+}
+
+#illustration3 {
+  background-image: url("../img/sticker2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 65%;
+  right: 5%;
+  transform: rotate(15deg);
+}
+
 #intro .title, #intro .subtitle {
   color: #8FF4EB;
 }
@@ -53,7 +95,6 @@ body {
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
   padding: 15px;
   text-align: left;
-  margin-left: 10px;
   background-color: white;
 }
 
@@ -61,9 +102,12 @@ body {
 	border-radius: 20px 20px 0 20px;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
   padding: 15px;
-  margin-right: 10px;
   text-align: left;
   background-color: white;
+}
+
+.name {
+  font-weight: bold;
 }
 
 .upper-margin {
@@ -93,6 +137,10 @@ body {
 
 .nav-link:hover {
   color: #FDA028;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/hamburger.svg") !important;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -253,6 +301,27 @@ section {
   background-color: #FFE477;
 }
 
+.project-1 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.project-text {
+  text-align: left;
+}
+
+.project-text-2 {
+   margin-top: -8vh !important;
+ }
+
+.smaller-bubble {
+  width: 80%;
+  font-size: 90%;
+  margin-top: 4vh;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 #get_involved {
   background-color: #8FF4EB;
 }
@@ -261,12 +330,29 @@ section {
   text-align: left;
 }
 
+.carousel-item img {
+  width: 80% !important;
+  margin: auto;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/arrow-right.svg") !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/arrow-left.svg") !important;
+}
+
 .involved-text-2 {
   text-align: center;
   display: none;
 }
 
 .invisible_col_2 {
+  display: none;
+}
+
+.invisible_col_3 {
   display: none;
 }
 
@@ -280,6 +366,10 @@ section {
 
 .contact_btn {
   margin-top: 8vh !important;
+}
+
+.contact_btn:hover {
+  cursor: pointer;
 }
 
 .final-download {
@@ -326,6 +416,11 @@ section {
     height: 5vh;
   }
 
+  .invisible_col_3 {
+    display: inherit;
+    margin-top: 5vh !important;
+  }
+
   .second_tip {
     margin-top: 8vh !important;
   }
@@ -340,6 +435,50 @@ section {
 
   .download-buttons-contain {
     margin-bottom: 1vh;
+  }
+
+  .project-text-2 {
+    margin-top: 5vh !important;
+  }
+
+  .footer_about div {
+    text-align: center;
+    padding-bottom: 3vh;
+  }
+
+  .il-sticker {
+    position: absolute;
+    width: 25vw;
+  }
+
+  #illustration1 {
+    background-image: url("../img/sticker11.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 5%;
+    transform: rotate(-20deg);
+  }
+
+  #illustration2 {
+    background-image: url("../img/sticker5.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 12%;
+    right: 5%;
+    transform: rotate(20deg);
+  }
+
+  #illustration3 {
+    background-image: url("../img/sticker2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 60%;
+    right: 5%;
+    transform: rotate(15deg);
   }
 
 }
